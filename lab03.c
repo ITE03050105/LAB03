@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int input;
-	int number;
-	printf("請輸入十個數字, 用空格隔開\n");
-	for(number=0;number<=10;number++)
+	int inp;
+	int num;
+	printf("please enter 10 number, use space \n");
+	for(num=0;num<=10;num++)
 	{
-		scanf("%d",&input);
-		printf("您輸入的數字為:%d\n",input);
+		scanf("%d",&inp);
+		printf("enter number is:%d\n",inp);
 	}
 	
 	return 0;
